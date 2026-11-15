@@ -1,0 +1,20 @@
+{
+  "name": "top-100-galsen",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "node check.js && node bot/collect.test.js && node netlify/functions/votes.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unic-backend/Top-100-galsen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unic-backend/Top-100-galsen/issues"
+  },
+  "homepage": "https://github.com/unic-backend/Top-100-galsen#readme",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.9"
+  },
+  "private": true
+}
