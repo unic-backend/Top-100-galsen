@@ -10,24 +10,17 @@
 <body>
 <header>
   <h1>Top 100 <span>Galsen</span></h1>
-  <p>Rap · Mbalax · Sénégal, France, États-Unis</p>
+  <p>Le meilleur du rap et du mbalax sénégalais 🇸🇳</p>
 </header>
-<nav role="tablist" aria-label="Catégorie">
-  <button role="tab" data-tab="artists" aria-selected="true">Artistes</button>
+<nav role="tablist" aria-label="Classement">
+  <button role="tab" data-tab="rappeurs" aria-selected="true">Rappeurs</button>
+  <button role="tab" data-tab="rappeuses" aria-selected="false">Rappeuses</button>
+  <button role="tab" data-tab="mbalax" aria-selected="false">Mbalax</button>
   <button role="tab" data-tab="albums" aria-selected="false">Albums</button>
-  <button role="tab" data-tab="songs" aria-selected="false">Sons & Clips</button>
+  <button role="tab" data-tab="sons" aria-selected="false">Sons & Clips</button>
 </nav>
-<form id="filters" aria-label="Filtres">
-  <input type="search" name="q" placeholder="Rechercher…" aria-label="Rechercher">
-  <select name="country" aria-label="Pays">
-    <option value="">Tous pays</option><option value="SN">🇸🇳 Sénégal</option><option value="FR">🇫🇷 France</option><option value="US">🇺🇸 États-Unis</option>
-  </select>
-  <select name="genre" aria-label="Genre musical">
-    <option value="">Rap + Mbalax</option><option value="rap">Rap</option><option value="mbalax">Mbalax</option>
-  </select>
-  <select name="gender" aria-label="Artiste">
-    <option value="">Tous</option><option value="H">Rappeurs / Chanteurs</option><option value="F">Rappeuses / Chanteuses</option>
-  </select>
+<form id="filters" role="search">
+  <input type="search" name="q" placeholder="Rechercher un artiste, un son…" aria-label="Rechercher">
 </form>
 <main><ol id="list"></ol><p id="empty" hidden>Aucun résultat.</p></main>
 <footer>Classements éditoriaux · données dans <code>data.json</code></footer>

@@ -1,77 +1,249 @@
 {
-  "note": "Classements éditoriaux. Modifie ce fichier pour mettre à jour. rank = position dans sa catégorie.",
-  "artists": [
-    {"rank":1,"name":"Youssou N'Dour","country":"SN","genre":"mbalax","gender":"H"},
-    {"rank":2,"name":"Omar Pène","country":"SN","genre":"mbalax","gender":"H"},
-    {"rank":3,"name":"Thione Seck","country":"SN","genre":"mbalax","gender":"H"},
-    {"rank":4,"name":"Wally Seck","country":"SN","genre":"mbalax","gender":"H"},
-    {"rank":5,"name":"Pape Diouf","country":"SN","genre":"mbalax","gender":"H"},
-    {"rank":6,"name":"Viviane Chidid","country":"SN","genre":"mbalax","gender":"F"},
-    {"rank":7,"name":"Coumba Gawlo","country":"SN","genre":"mbalax","gender":"F"},
-    {"rank":8,"name":"Titi","country":"SN","genre":"mbalax","gender":"F"},
-    {"rank":1,"name":"Didier Awadi","country":"SN","genre":"rap","gender":"H"},
-    {"rank":2,"name":"Positive Black Soul","country":"SN","genre":"rap","gender":"H"},
-    {"rank":3,"name":"Daara J","country":"SN","genre":"rap","gender":"H"},
-    {"rank":4,"name":"Nix","country":"SN","genre":"rap","gender":"H"},
-    {"rank":5,"name":"Dip Doundou Guiss","country":"SN","genre":"rap","gender":"H"},
-    {"rank":6,"name":"Ngaaka Blindé","country":"SN","genre":"rap","gender":"H"},
-    {"rank":7,"name":"Akhlou Brick","country":"SN","genre":"rap","gender":"H"},
-    {"rank":8,"name":"Xuman","country":"SN","genre":"rap","gender":"H"},
-    {"rank":9,"name":"Toussa Senerap","country":"SN","genre":"rap","gender":"F"},
-    {"rank":10,"name":"Moona","country":"SN","genre":"rap","gender":"F"},
-    {"rank":1,"name":"IAM","country":"FR","genre":"rap","gender":"H"},
-    {"rank":2,"name":"Booba","country":"FR","genre":"rap","gender":"H"},
-    {"rank":3,"name":"MC Solaar","country":"FR","genre":"rap","gender":"H"},
-    {"rank":4,"name":"PNL","country":"FR","genre":"rap","gender":"H"},
-    {"rank":5,"name":"Nekfeu","country":"FR","genre":"rap","gender":"H"},
-    {"rank":6,"name":"Jul","country":"FR","genre":"rap","gender":"H"},
-    {"rank":7,"name":"Ninho","country":"FR","genre":"rap","gender":"H"},
-    {"rank":8,"name":"Orelsan","country":"FR","genre":"rap","gender":"H"},
-    {"rank":9,"name":"Diam's","country":"FR","genre":"rap","gender":"F"},
-    {"rank":10,"name":"Keny Arkana","country":"FR","genre":"rap","gender":"F"},
-    {"rank":1,"name":"Kendrick Lamar","country":"US","genre":"rap","gender":"H"},
-    {"rank":2,"name":"Jay-Z","country":"US","genre":"rap","gender":"H"},
-    {"rank":3,"name":"Nas","country":"US","genre":"rap","gender":"H"},
-    {"rank":4,"name":"The Notorious B.I.G.","country":"US","genre":"rap","gender":"H"},
-    {"rank":5,"name":"2Pac","country":"US","genre":"rap","gender":"H"},
-    {"rank":6,"name":"Eminem","country":"US","genre":"rap","gender":"H"},
-    {"rank":7,"name":"Kanye West","country":"US","genre":"rap","gender":"H"},
-    {"rank":8,"name":"Lauryn Hill","country":"US","genre":"rap","gender":"F"},
-    {"rank":9,"name":"Missy Elliott","country":"US","genre":"rap","gender":"F"},
-    {"rank":10,"name":"Nicki Minaj","country":"US","genre":"rap","gender":"F"}
-  ],
-  "albums": [
-    {"rank":1,"title":"Set","artist":"Youssou N'Dour","country":"SN","genre":"mbalax","year":1990},
-    {"rank":2,"title":"Egypt","artist":"Youssou N'Dour","country":"SN","genre":"mbalax","year":2004},
-    {"rank":1,"title":"Boomerang","artist":"Daara J","country":"SN","genre":"rap","year":2003},
-    {"rank":2,"title":"Présidents d'Afrique","artist":"Didier Awadi","country":"SN","genre":"rap","year":2010},
-    {"rank":1,"title":"L'École du micro d'argent","artist":"IAM","country":"FR","genre":"rap","year":1997},
-    {"rank":2,"title":"Prose Combat","artist":"MC Solaar","country":"FR","genre":"rap","year":1994},
-    {"rank":3,"title":"Temps mort","artist":"Booba","country":"FR","genre":"rap","year":2002},
-    {"rank":4,"title":"Dans ma bulle","artist":"Diam's","country":"FR","genre":"rap","year":2006},
-    {"rank":5,"title":"Dans la légende","artist":"PNL","country":"FR","genre":"rap","year":2016},
-    {"rank":1,"title":"Illmatic","artist":"Nas","country":"US","genre":"rap","year":1994},
-    {"rank":2,"title":"To Pimp a Butterfly","artist":"Kendrick Lamar","country":"US","genre":"rap","year":2015},
-    {"rank":3,"title":"The Miseducation of Lauryn Hill","artist":"Lauryn Hill","country":"US","genre":"rap","year":1998},
-    {"rank":4,"title":"Ready to Die","artist":"The Notorious B.I.G.","country":"US","genre":"rap","year":1994},
-    {"rank":5,"title":"The Blueprint","artist":"Jay-Z","country":"US","genre":"rap","year":2001}
-  ],
-  "songs": [
-    {"rank":1,"title":"7 Seconds","artist":"Youssou N'Dour & Neneh Cherry","country":"SN","genre":"mbalax"},
-    {"rank":2,"title":"Birima","artist":"Youssou N'Dour","country":"SN","genre":"mbalax"},
-    {"rank":1,"title":"Boomerang","artist":"Daara J","country":"SN","genre":"rap"},
-    {"rank":2,"title":"Boul Falé","artist":"Positive Black Soul","country":"SN","genre":"rap"},
-    {"rank":1,"title":"Je danse le Mia","artist":"IAM","country":"FR","genre":"rap"},
-    {"rank":2,"title":"Caroline","artist":"MC Solaar","country":"FR","genre":"rap"},
-    {"rank":3,"title":"La Boulette","artist":"Diam's","country":"FR","genre":"rap"},
-    {"rank":4,"title":"DKR","artist":"Booba","country":"FR","genre":"rap"},
-    {"rank":5,"title":"Au DD","artist":"PNL","country":"FR","genre":"rap"},
-    {"rank":1,"title":"Lose Yourself","artist":"Eminem","country":"US","genre":"rap"},
-    {"rank":2,"title":"Alright","artist":"Kendrick Lamar","country":"US","genre":"rap"},
-    {"rank":3,"title":"Juicy","artist":"The Notorious B.I.G.","country":"US","genre":"rap"},
-    {"rank":4,"title":"N.Y. State of Mind","artist":"Nas","country":"US","genre":"rap"},
-    {"rank":5,"title":"California Love","artist":"2Pac","country":"US","genre":"rap"},
-    {"rank":6,"title":"Doo Wop (That Thing)","artist":"Lauryn Hill","country":"US","genre":"rap"},
-    {"rank":7,"title":"Get Ur Freak On","artist":"Missy Elliott","country":"US","genre":"rap"}
-  ]
+ "note": "Classements éditoriaux Sénégal. rank = position dans sa section (rap H, rap F, mbalax, albums, sons).",
+ "artists": [
+  {
+   "rank": 1,
+   "name": "Youssou N'Dour",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 2,
+   "name": "Omar Pène",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 3,
+   "name": "Thione Seck",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 4,
+   "name": "Wally Seck",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 5,
+   "name": "Pape Diouf",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 6,
+   "name": "Viviane Chidid",
+   "genre": "mbalax",
+   "gender": "F"
+  },
+  {
+   "rank": 7,
+   "name": "Coumba Gawlo",
+   "genre": "mbalax",
+   "gender": "F"
+  },
+  {
+   "rank": 8,
+   "name": "Titi",
+   "genre": "mbalax",
+   "gender": "F"
+  },
+  {
+   "rank": 1,
+   "name": "Didier Awadi",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 2,
+   "name": "Positive Black Soul",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 3,
+   "name": "Daara J",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 4,
+   "name": "Nix",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 5,
+   "name": "Dip Doundou Guiss",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 6,
+   "name": "Ngaaka Blindé",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 7,
+   "name": "Akhlou Brick",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 8,
+   "name": "Xuman",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 1,
+   "name": "Toussa Senerap",
+   "genre": "rap",
+   "gender": "F"
+  },
+  {
+   "rank": 2,
+   "name": "Moona",
+   "genre": "rap",
+   "gender": "F"
+  },
+  {
+   "rank": 9,
+   "name": "Fou Malade",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 10,
+   "name": "Keur Gui",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 11,
+   "name": "Simon (Bisbi Clan)",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 12,
+   "name": "Duggy Tee",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 13,
+   "name": "Omzo Dollar",
+   "genre": "rap",
+   "gender": "H"
+  },
+  {
+   "rank": 3,
+   "name": "Sister LB",
+   "genre": "rap",
+   "gender": "F"
+  },
+  {
+   "rank": 4,
+   "name": "Mamy Victory",
+   "genre": "rap",
+   "gender": "F"
+  },
+  {
+   "rank": 9,
+   "name": "Fallou Dieng",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 10,
+   "name": "Alioune Mbaye Nder",
+   "genre": "mbalax",
+   "gender": "H"
+  },
+  {
+   "rank": 11,
+   "name": "Aïda Samb",
+   "genre": "mbalax",
+   "gender": "F"
+  },
+  {
+   "rank": 12,
+   "name": "Kiné Lam",
+   "genre": "mbalax",
+   "gender": "F"
+  }
+ ],
+ "albums": [
+  {
+   "rank": 1,
+   "title": "Set",
+   "artist": "Youssou N'Dour",
+   "genre": "mbalax",
+   "year": 1990
+  },
+  {
+   "rank": 2,
+   "title": "Egypt",
+   "artist": "Youssou N'Dour",
+   "genre": "mbalax",
+   "year": 2004
+  },
+  {
+   "rank": 3,
+   "title": "Immigrés",
+   "artist": "Youssou N'Dour",
+   "genre": "mbalax",
+   "year": 1984
+  },
+  {
+   "rank": 4,
+   "title": "Boomerang",
+   "artist": "Daara J",
+   "genre": "rap",
+   "year": 2003
+  },
+  {
+   "rank": 5,
+   "title": "Présidents d'Afrique",
+   "artist": "Didier Awadi",
+   "genre": "rap",
+   "year": 2010
+  },
+  {
+   "title": "School of Life",
+   "artist": "Daara J Family",
+   "genre": "rap",
+   "year": 2010,
+   "rank": 6
+  }
+ ],
+ "songs": [
+  {
+   "rank": 1,
+   "title": "7 Seconds",
+   "artist": "Youssou N'Dour & Neneh Cherry",
+   "genre": "mbalax"
+  },
+  {
+   "rank": 2,
+   "title": "Birima",
+   "artist": "Youssou N'Dour",
+   "genre": "mbalax"
+  },
+  {
+   "rank": 3,
+   "title": "Boomerang",
+   "artist": "Daara J",
+   "genre": "rap"
+  },
+  {
+   "rank": 4,
+   "title": "Boul Falé",
+   "artist": "Positive Black Soul",
+   "genre": "rap"
+  }
+ ]
 }
